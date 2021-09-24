@@ -1,0 +1,84 @@
+/* Colors 
+    Primary color : #601A35
+    Secondary color : #A1045A
+*/
+
+.Timer {
+  margin-top: 30px;
+}
+
+.InputForm {
+  display: inline-block;
+  border: 1px solid #290916;
+  position: absolute;
+  height: 400;
+  width: 380px;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
+.InputLabel,
+.InputSubmit,
+.InputText {
+  display: block;
+  margin: 0 auto;
+  width: 95%;
+}
+
+.InputLabel {
+  margin-top: 40px;
+  font-size: 30px;
+  font-family: sans-serif;
+  font-weight: bold;
+  margin-left: 5px;
+}
+
+.InputText,
+.InputSubmit {
+  height: 30px;
+  border-width: 1px;
+  border-color: #601a35;
+}
+
+.InputText {
+  margin-top: 25px;
+}
+
+.InputText:focus {
+  outline: none;
+  border-color: #a1045a;
+}
+
+.InputSubmit {
+  margin-top: 25px;
+  width: 97%;
+  background-color: #601a35;
+  color: #fff;
+  font-size: 15px;
+  cursor: pointer;
+}
+
+.InputSubmit:hover {
+  background-color: #a1045a;
+}
+
+.InputSubmit:disabled {
+  background-color: #ccc;
+}
+
+.InvalidInput {
+  color: red;
+  font-weight: bold;
+  margin-left: 5px;
+  margin-bottom: 0px;
+  display: inline-block;
+  /* border: 1px solid black;
+   */
+}
+
+.LastEnteredWord {
+  margin-left: 5px;
+}

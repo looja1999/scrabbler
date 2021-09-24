@@ -1,0 +1,22 @@
+/* Colors 
+    Primary color : #601A35
+    Secondary color : #A1045A
+*/
+.Output {
+  /* position: absolute; */
+  display: block;
+  /* top: 75%;
+  left: 37.5%;
+  transform: translate(-50%, -50%); */
+  margin-top: 50px;
+  margin-left: 50px;
+}
+.Score {
+  color: #601a35;
+  font-size: 30px;
+}
+
+.List {
+  padding: 0px;
+  margin-left: 15px;
+}

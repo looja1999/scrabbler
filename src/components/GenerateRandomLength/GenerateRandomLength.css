@@ -1,0 +1,18 @@
+.GeneratedRandomLengthBtn {
+  position: absolute;
+  display: block;
+  left: 72%;
+  top: 08%;
+  right: 10%;
+  padding: 10px;
+  border-radius: 0px;
+  font-size: 15px;
+  color: #fff;
+  background-color: #290916;
+  border-color: #290916;
+}
+
+.GeneratedRandomLengthBtn:hover {
+  background-color: #a1045a;
+  border-color: #a1045a;
+}

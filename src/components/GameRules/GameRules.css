@@ -1,0 +1,19 @@
+/* Colors 
+  Primary color : #601A35
+  Secondary color : #A1045A
+*/
+
+.GameRules {
+  position: absolute;
+  top: 80%;
+  left: 50%;
+  transform: translateX(-38%);
+}
+
+.GameRules--heading {
+  color: #601a35;
+}
+
+.GameRules--example {
+  color: #601a35;
+}
