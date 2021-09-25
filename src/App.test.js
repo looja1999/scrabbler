@@ -16,4 +16,10 @@ describe("App Component", () => {
     userEvent.click(generateRandomButtonElement);
     expect(textBoxElement).toBeInTheDocument();
   });
+
+  test("Verify, if the total score is intially 0", () => {
+    render(<App />);
+    const totalScoreElement = screen.getByText(/Total score : 0/i);
+    expect(totalScoreElement).toBeInTheDocument();
+  });
 });
