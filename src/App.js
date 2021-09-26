@@ -43,7 +43,8 @@ function App() {
     setTotalScore(totalScore - (totalScore * deductionValue) / 100);
   };
 
-  console.log(userInputs);
+  // console.log(userInputs);
+  // console.log("Total score : ", totalScore);
 
   return (
     <div>

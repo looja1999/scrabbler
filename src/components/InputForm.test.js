@@ -4,6 +4,7 @@ import InputForm from "./InputForm";
 import React from "react";
 
 describe("InputForm Component", () => {
+
   test("Verifying if the Submit button is disabled intially", () => {
     render(<InputForm />);
     const submitButton = screen.getByRole("button", { name: /Submit/i });
@@ -11,7 +12,7 @@ describe("InputForm Component", () => {
     expect(submitButton).toBeDisabled();
   });
 
-  test("Verify if the error is displayed when the user inputs characters other then alphabets", () => {
+  test("Verifying if the error is displayed when the user inputs characters other then alphabets", () => {
     render(<InputForm />);
     const inputElement = screen.getByPlaceholderText("Enter here");
     userEvent.type(inputElement, "123");
@@ -21,7 +22,7 @@ describe("InputForm Component", () => {
     expect(errorDisplay).toBeInTheDocument();
   });
 
-  test("Verify if the error is displayed when the user inputs wrong length", () => {
+  test("Verifying if the error is displayed when the user inputs wrong length", () => {
     render(<InputForm />);
     const inputElement = screen.getByPlaceholderText("Enter here");
     userEvent.type(inputElement, "asdfghjkl");
@@ -31,7 +32,7 @@ describe("InputForm Component", () => {
     expect(errorDisplay).toBeInTheDocument();
   });
 
-  test("Verify if the timer reset's when the button is clicked.", () => {
+  test("Verifying if the timer reset's when the Generate random length button is clicked.", () => {
     render(<InputForm />);
     const generateRandomElement = screen.getByRole("button", {
       name: /Click to generate random length and start timer/i,
